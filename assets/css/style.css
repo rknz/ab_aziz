@@ -1,0 +1,2239 @@
+/* ***********************
+    Defult CSS => Start
+************************ */
+/* ******************************
+Website Information
+*******************************
+
+Website Stylesheet 
+version:   1.0 
+date:      01/03/07 
+author:    [your email] 
+email:     [you at domain dot com] 
+website:   [your domain] 
+version history: [location of file]
+
+******************************* */
+#preloader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #fff;
+  /* change if the mask should have another color then white */
+  z-index: 99;
+  /* makes sure it stays on top */
+}
+
+#status {
+  width: 250px;
+  height: 250px;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  background-image: url(https://raw.githubusercontent.com/niklausgerber/PreLoadMe/master/img/status.gif);
+  /* path to your loading animation */
+  background-repeat: no-repeat;
+  background-position: center;
+  transform: translate(-50%, -50%);
+}
+
+@font-face {
+  font-family: nexa;
+  src: url(../webfont/NexaBold.otf);
+  font-weight: 700;
+}
+
+reset everything * {
+  margin: 0;
+  padding: 0;
+  border: 0;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+reset body line-height body {
+  min-height: 100vh;
+  line-height: 1;
+  text-rendering: optimizeSpeed;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  outline: 0;
+  font-size: 1rem;
+}
+
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  line-height: inherit;
+  color: inherit;
+}
+
+button {
+  border: 0;
+  outline: 0;
+  background: none;
+}
+
+button:focus {
+  outline: 0;
+  border: 0;
+  border: 0;
+  outline: 0;
+}
+
+a {
+  display: inline-block;
+  cursor: pointer;
+  color: inherit;
+  text-decoration: inherit;
+  -webkit-tap-highlight-color: transparent;
+}
+
+p {
+  margin-bottom: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+ol, ul {
+  list-style: none;
+  margin-bottom: 0 !important;
+  padding-left: 0;
+}
+
+[type=date],
+[type=datetime],
+[type=datetime-local],
+[type=email],
+[type=month],
+[type=number],
+[type=password],
+[type=search],
+[type=tel],
+[type=text],
+[type=time],
+[type=url],
+[type=week],
+textarea,
+select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 100%;
+}
+
+[type=date]:focus,
+[type=datetime]:focus,
+[type=datetime-local]:focus,
+[type=email]:focus,
+[type=month]:focus,
+[type=number]:focus,
+[type=password]:focus,
+[type=search]:focus,
+[type=tel]:focus,
+[type=text]:focus,
+[type=time]:focus,
+[type=url]:focus,
+[type=week]:focus,
+textarea:focus,
+select:focus {
+  outline: 0;
+}
+
+::-moz-placeholder {
+  opacity: 1;
+}
+
+textarea {
+  vertical-align: top;
+  overflow: auto;
+}
+
+[type='checkbox'],
+[type='radio'] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+[type='checkbox']:focus,
+[type='radio']:focus {
+  outline: 0;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html:focus-within {
+    scroll-behavior: auto;
+  }
+}
+
+/* ***********************
+    Defult CSS => End
+************************ */
+/* ***********************
+    Hero Section => Start
+************************ */
+.Main_Menu_section .Decor_Wrapper .Decor_Two .Decor_Big_Icon, .Main_Menu_section .Decor_Wrapper .Decor_Three .Decor_Three_Icons, .Main_Menu_section .Decor_Wrapper .Decor_Four .Decor_Big_Icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+.organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_two, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_three, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_two, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_three, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_two, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_three, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_two, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_three {
+  background: #84AD41;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_two h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_three h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_two h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_three h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_two h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_three h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_two h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_three h3 {
+  font-size: 16px;
+}
+
+.organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_two h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_three h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_two h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_three h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_two h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_three h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_two h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_three h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.organigramme_section .organigramme_brance .primary_brance .primary_item {
+  background: #6C8A1F;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.organigramme_section .organigramme_brance .primary_brance .primary_item h3 {
+  font-size: 16px;
+}
+
+.organigramme_section .organigramme_brance .primary_brance .primary_item h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance .secondary_left .secondary_item_1, .organigramme_section .organigramme_brance .secondary_brance .secondary_left .secondary_item_3, .organigramme_section .organigramme_brance .secondary_brance .secondary_right .right_item_1, .organigramme_section .organigramme_brance .secondary_brance .secondary_right .right_item_3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_one, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_one, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_one, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_one {
+  background: #313E48;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance .secondary_left .secondary_item_1 h3, .organigramme_section .organigramme_brance .secondary_brance .secondary_left .secondary_item_3 h3, .organigramme_section .organigramme_brance .secondary_brance .secondary_right .right_item_1 h3, .organigramme_section .organigramme_brance .secondary_brance .secondary_right .right_item_3 h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_one h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_one h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_one h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_one h3 {
+  font-size: 16px;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance .secondary_left .secondary_item_1 h2, .organigramme_section .organigramme_brance .secondary_brance .secondary_left .secondary_item_3 h2, .organigramme_section .organigramme_brance .secondary_brance .secondary_right .right_item_1 h2, .organigramme_section .organigramme_brance .secondary_brance .secondary_right .right_item_3 h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_one h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_one h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_one h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_one h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.Metires_Section.bg_one, .Metires_Section.bg_two, .Metires_Section.bg_three {
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+  z-index: 1;
+  cursor: pointer;
+  position: relative;
+}
+
+.Metires_Section.bg_one::before, .Metires_Section.bg_two::before, .Metires_Section.bg_three::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(212, 212, 212, 0.624);
+  z-index: -1;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance .secondary_left .secondary_item_2, .organigramme_section .organigramme_brance .secondary_brance .secondary_right .right_item_2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_four, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_four, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_four, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_four {
+  color: #fff;
+  background: #afaeae;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance .secondary_left .secondary_item_2 h3, .organigramme_section .organigramme_brance .secondary_brance .secondary_right .right_item_2 h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_four h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_four h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_four h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_four h3 {
+  font-size: 16px;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance .secondary_left .secondary_item_2 h2, .organigramme_section .organigramme_brance .secondary_brance .secondary_right .right_item_2 h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_four h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_four h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_four h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_four h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four {
+  width: 18rem;
+}
+
+.organigramme_section .organigramme_brance .primary_brance .primary_item, .organigramme_section .organigramme_brance .secondary_brance .secondary_left, .organigramme_section .organigramme_brance .secondary_brance .secondary_right .right_item_1, .organigramme_section .organigramme_brance .secondary_brance .secondary_right .right_item_3 {
+  border-radius: 0 0 20px 0;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance .secondary_left .secondary_item_1, .organigramme_section .organigramme_brance .secondary_brance .secondary_left .secondary_item_3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_one, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_one, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_one, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_one {
+  border-radius: 0 0 0 20px;
+}
+
+.organigramme_section .organigramme_brance .primary_brance, .organigramme_section .organigramme_brance .secondary_brance .secondary_left, .organigramme_section .organigramme_brance .secondary_brance .secondary_right, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_one, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_one, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_one, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_one {
+  position: relative;
+}
+
+.organigramme_section .organigramme_brance .primary_brance:after, .organigramme_section .organigramme_brance .secondary_brance .secondary_left:after, .organigramme_section .organigramme_brance .secondary_brance .secondary_right:after, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_one:after, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_one:after, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_one:after, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_one:after {
+  position: absolute;
+  content: '';
+  width: 2px;
+  height: 24rem;
+  left: 50;
+  top: -2rem;
+  background: #c9c9c9;
+  -webkit-transform: translate(50, 50);
+          transform: translate(50, 50);
+  z-index: -1;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance, .organigramme_section .organigramme_brance .tertiary_brance {
+  position: relative;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance:after, .organigramme_section .organigramme_brance .tertiary_brance:after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  left: 50;
+  top: -2rem;
+  background: #c9c9c9;
+  -webkit-transform: translate(50, 50);
+          transform: translate(50, 50);
+  z-index: -1;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance {
+  position: relative;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance::before {
+  position: absolute;
+  content: '';
+  height: 2px;
+  left: 50;
+  top: -2rem;
+  background: #c9c9c9;
+  -webkit-transform: translate(50, 50);
+          transform: translate(50, 50);
+  z-index: -1;
+}
+
+.Header_Top_Section {
+  background: #84AD41;
+}
+
+.Header_Top_Section .Header_Top {
+  padding: 15px 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.Header_Top_Section .Header_Top ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-bottom: 0;
+}
+
+.Header_Top_Section .Header_Top ul li a {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: "Titillium Web", sans-serif;
+  font-size: 14px;
+  margin-left: 40px;
+  color: #313E48;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+.Header_Top_Section .Header_Top ul li a:hover {
+  color: #ffffff;
+}
+
+.Header_Top_Section .Header_Top ul li a span {
+  margin-right: 5px;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background: #69971e;
+}
+
+.Header_Top_Section .Header_Top ul li a span i {
+  font-size: 14px;
+  color: #ffffff;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+.Header_Top_Section .Language_Btn {
+  font-size: 16px;
+  font-weight: 600;
+  color: #313E48;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+.Header_Top_Section .Language_Btn:hover {
+  color: #ffffff;
+}
+
+.Header_Top_Section .Language_Btn i {
+  font-size: 14px;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+  margin-right: 5px;
+}
+
+.Main_Menu_section {
+  width: 100%;
+  background: #ffffff;
+  position: relative;
+  z-index: 2;
+}
+
+.Main_Menu_section .Main_Menu {
+  padding: 10px 0;
+}
+
+.Main_Menu_section .Main_Menu .navbar-toggler .Menu_Icon {
+  font-size: 30px;
+}
+
+.Main_Menu_section .Main_Menu .navbar-toggler:focus {
+  -webkit-box-shadow: none;
+          box-shadow: none;
+}
+
+.Main_Menu_section .Main_Menu .navbar-toggler:focus:not(:focus-visible) {
+  outline: 0;
+}
+
+.Main_Menu_section .Main_Menu ul {
+  grid-gap: 10px;
+}
+
+.Main_Menu_section .Main_Menu ul li .Menu_link {
+  color: #313E48;
+  font-size: 18px;
+  font-family: "Titillium Web", sans-serif;
+  text-shadow: 0 0 #38434c;
+  font-weight: 600;
+  position: relative;
+}
+
+.Main_Menu_section .Main_Menu ul li .Menu_link::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 0;
+  left: 0;
+  bottom: 0;
+  background: #6C8A1F;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+.Main_Menu_section .Main_Menu ul li .Menu_link .active_page, .Main_Menu_section .Main_Menu ul li .Menu_link:hover::after {
+  height: 3px;
+  font-weight: 600;
+}
+
+.Main_Menu_section .Main_Menu ul li .Menu_link:hover {
+  font-weight: 700;
+}
+
+.Main_Menu_section .Main_Menu ul li .active_page::after {
+  height: 3px;
+  font-weight: 600;
+}
+
+.Main_Menu_section .Main_Menu ul li .Menu_link.show::after {
+  background: #313E48;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+  height: 3px;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.Main_Menu_section .Main_Menu ul li .Menu_link.show {
+  font-weight: 700;
+}
+
+.Main_Menu_section .Main_Menu ul .dropdown-menu {
+  border: none;
+}
+
+.Main_Menu_section .Main_Menu ul .dropdown-menu .dropdown-item {
+  padding: 5px 10px;
+  color: #313E48;
+  font-size: 16px;
+}
+
+.Main_Menu_section .Main_Menu ul .dropdown-menu .dropdown-item i {
+  color: #313E48;
+  margin-right: 5px;
+  font-size: 16px;
+}
+
+.Main_Menu_section .Main_Menu ul .dropdown-menu .dropdown-item:hover {
+  background: none;
+  font-weight: 700;
+  letter-spacing: 0;
+}
+
+.Main_Menu_section .Main_Menu ul .dropdown-menu.active {
+  color: red !important;
+}
+
+.Main_Menu_section .offcanvas {
+  position: fixed;
+  bottom: 0;
+  z-index: 1045;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  max-width: 100%;
+  overflow: hidden;
+  visibility: hidden;
+  background-color: #fff;
+  background-clip: padding-box;
+  outline: 0;
+  opacity: 0;
+  -webkit-transition: -webkit-transform .3s ease-in-out !important;
+  transition: -webkit-transform .3s ease-in-out !important;
+  transition: transform .3s ease-in-out !important;
+  transition: transform .3s ease-in-out, -webkit-transform .3s ease-in-out !important;
+}
+
+.Main_Menu_section .offcanvas .navbar-nav li .Menu_link {
+  color: #313E48;
+  font-size: 18px;
+  font-family: "Titillium Web", sans-serif;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+  letter-spacing: 0.235px;
+  position: relative;
+  margin: 10px 0;
+  border-bottom: 1px solid;
+}
+
+.Main_Menu_section .offcanvas.show {
+  visibility: visible;
+  opacity: 1;
+  -webkit-transition: width 1s,opacity 1s,padding 1s,visibility 1s;
+  transition: width 1s,opacity 1s,padding 1s,visibility 1s;
+}
+
+.Main_Menu_section .Hero_Box {
+  width: 250px;
+  height: 250px;
+  background: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  box-shadow: 0px 0px 19px 9px rgba(179, 179, 179, 0.67);
+  -webkit-box-shadow: 0px 0px 19px 9px rgba(179, 179, 179, 0.67);
+  -moz-box-shadow: 0px 0px 19px 9px rgba(179, 179, 179, 0.67);
+}
+
+.Main_Menu_section .Hero_Box img {
+  width: 100%;
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 10px;
+}
+
+.Main_Menu_section .Hero_Text {
+  padding: 100px 0;
+}
+
+.Main_Menu_section .Hero_Text h2 {
+  display: inline-block;
+  font-family: nexa;
+  font-size: 33px;
+  color: #ffffff;
+  background: #84AD41;
+  padding: 10px;
+}
+
+.Main_Menu_section .Hero_Text h1 {
+  font-size: 68px;
+  font-family: nexa;
+  font-weight: 700;
+  padding: 10px 0;
+}
+
+.Main_Menu_section .Hero_Text p {
+  font-size: 68px;
+  font-family: nexa;
+  color: #84AD41;
+}
+
+.Main_Menu_section .Hero_Image {
+  -webkit-clip-path: polygon(70% 0, 100% 44%, 100% 101%, 65% 100%, 0 0);
+          clip-path: polygon(70% 0, 100% 44%, 100% 101%, 65% 100%, 0 0);
+  position: absolute;
+  content: '';
+  width: 900px;
+  max-width: 100%;
+  top: 0;
+  right: 0;
+  z-index: -8;
+  overflow: hidden;
+}
+
+.Main_Menu_section .Hero_Image img {
+  width: 100%;
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  -webkit-filter: opacity(0.7);
+          filter: opacity(0.7);
+}
+
+.Main_Menu_section .Decor_Wrapper {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  right: 0;
+  top: 0;
+  z-index: -1;
+}
+
+.Main_Menu_section .Decor_Wrapper .Decor_One,
+.Main_Menu_section .Decor_Wrapper .Decor_Two,
+.Main_Menu_section .Decor_Wrapper .Decor_Three,
+.Main_Menu_section .Decor_Wrapper .Decor_Four,
+.Main_Menu_section .Decor_Wrapper .Decor_Five {
+  position: absolute;
+  content: '';
+  width: 720px;
+  height: 960px;
+}
+
+.Main_Menu_section .Decor_Wrapper .Decor_One {
+  -webkit-clip-path: polygon(100% 60%, 40% 100%, 0 60%, 100% 0);
+          clip-path: polygon(100% 60%, 40% 100%, 0 60%, 100% 0);
+  top: 264px;
+  right: 0;
+  z-index: -7;
+  background: #6C8A1F;
+}
+
+.Main_Menu_section .Decor_Wrapper .Decor_One .Decor_Website {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+  height: 100%;
+  position: relative;
+  margin-top: 60px;
+  overflow: hidden;
+}
+
+.Main_Menu_section .Decor_Wrapper .Decor_One .Decor_Website::after {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  background: #000;
+  width: 40px;
+  height: 40px;
+}
+
+.Main_Menu_section .Decor_Wrapper .Decor_One .Decor_Website p {
+  font-size: 18px;
+  font-family: "Titillium Web", sans-serif;
+  color: #ffffff;
+  width: 250px;
+}
+
+.Main_Menu_section .Decor_Wrapper .Decor_One .Decor_Website .Decor_Web {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.Main_Menu_section .Decor_Wrapper .Decor_One .Decor_Website .Decor_Web img {
+  width: 105px;
+  max-width: 100%;
+  -o-object-fit: cover;
+  object-fit: cover;
+  margin-right: 10px;
+}
+
+.Main_Menu_section .Decor_Wrapper .Decor_One .Decor_Website .Decor_Web .Decor_Web_links {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Main_Menu_section .Decor_Wrapper .Decor_One .Decor_Website .Decor_Web .Decor_Web_links a {
+  font-size: 36px;
+  font-family: nexa;
+  font-weight: 400;
+  display: block;
+  color: #313E48;
+  line-height: 1;
+}
+
+.Main_Menu_section .Decor_Wrapper .Decor_Two {
+  -webkit-clip-path: polygon(100% 50%, 100% 100%, 0 50%, 0 0);
+  clip-path: polygon(100% 50%, 100% 100%, 0 50%, 0 0);
+  top: 840px;
+  right: -0;
+  z-index: -4;
+  background: #313E48;
+}
+
+.Main_Menu_section .Decor_Wrapper .Decor_Three {
+  -webkit-clip-path: polygon(100% 0, 100% 50%, 0 100%, 0 50%);
+          clip-path: polygon(100% 0, 100% 50%, 0 100%, 0 50%);
+  top: 1320px;
+  right: 0;
+  z-index: -5;
+  background: #6C8A1F;
+}
+
+.Main_Menu_section .Decor_Wrapper .Decor_Three .Decor_Three_Icons {
+  grid-gap: 21px;
+}
+
+.Main_Menu_section .Decor_Wrapper .Decor_Three .Decor_Three_Icons img {
+  width: 100%;
+  max-width: 70px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  margin-right: 10px;
+}
+
+.Main_Menu_section .Decor_Wrapper .Decor_Four {
+  -webkit-clip-path: polygon(100% 50%, 100% 100%, 0 50%, 0 0);
+  clip-path: polygon(100% 50%, 100% 100%, 0 50%, 0 0);
+  top: 1800px;
+  right: -0;
+  z-index: -5;
+  background: #A8D335;
+}
+
+.Main_Menu_section .Decor_Wrapper .Decor_Four .Decor_Big_Icon img {
+  width: 100%;
+  max-width: 300px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  margin-bottom: 75px;
+}
+
+.Main_Menu_section .Decor_Wrapper .Decor_Five {
+  -webkit-clip-path: polygon(100% 20%, 100% 70%, 40% 100%, 0 100%, 0 70%);
+          clip-path: polygon(100% 20%, 100% 70%, 40% 100%, 0 100%, 0 70%);
+  top: 2090px;
+  right: -0;
+  z-index: -5;
+  background: #313E48;
+}
+
+.Main_Menu_section .Decor_Wrapper .Decor_Five .Decor_Five_Icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+.Main_Menu_section .Decor_Wrapper .Decor_Five .Decor_Five_Icon img {
+  width: 100%;
+  max-width: 200px;
+  -o-object-fit: cover;
+  object-fit: cover;
+  /* margin-right: 75px; */
+  margin: 100px;
+}
+
+.About_Section {
+  background: #F0F0F0;
+  padding-bottom: 50px;
+}
+
+.About_Section .Our_Site {
+  margin-top: 45px;
+}
+
+.About_Section .Our_Site h2 {
+  font-size: 68px;
+  text-transform: uppercase;
+  font-weight: 700;
+  color: #313E48;
+  font-family: nexa;
+  margin-bottom: 0;
+}
+
+.About_Section .Our_Site h2 span {
+  color: #6C8A1F;
+}
+
+.About_Section .Our_Site h3 {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 42px;
+}
+
+.About_Section .Our_Site p {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 0;
+  line-height: 21px;
+}
+
+.About_Section .Our_Site p a {
+  color: #6C8A1F;
+  font-size: 18px;
+  font-weight: 600;
+  font-family: "Titillium Web", sans-serif;
+  margin-bottom: 0;
+  line-height: 21px;
+  padding: 0;
+}
+
+.About_Section .Our_Site a {
+  color: #6C8A1F;
+  font-family: nexa;
+  font-size: 36px;
+  font-weight: 400;
+  line-height: 43px;
+  padding: 10px 0;
+}
+
+.Mission_Section {
+  background: #5E6C7E;
+  color: #ffffff;
+  padding: 95px 0;
+}
+
+.Mission_Section .Mission_Cont .Single_Mission {
+  margin-bottom: 30px;
+}
+
+.Mission_Section .Mission_Cont .Single_Mission h2 {
+  font-size: 40px;
+  font-family: nexa;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+
+.Mission_Section .Mission_Cont .Single_Mission p {
+  font-size: 18px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 300;
+}
+
+.Metires_Section .Metires_Cont {
+  padding: 90px 0;
+  z-index: 2;
+}
+
+.Metires_Section .Metires_Cont p {
+  font-family: nexa;
+  font-weight: 400;
+  color: #6C8A1F;
+  font-size: 68px;
+  margin-bottom: 40px;
+}
+
+.Metires_Section .Metires_Cont p .Metires_Light {
+  display: inline-block;
+  color: #323E48;
+  margin-bottom: 0;
+  font-family: nexa;
+  font-size: 68px;
+}
+
+.Metires_Section .Metires_Cont p .Metires_Bold {
+  display: inline-block;
+  font-family: nexa;
+  font-size: 68px;
+  display: inline-block;
+  font-weight: 700;
+  color: #323E48;
+  margin-bottom: 0;
+}
+
+.Metires_Section .Metires_Cont .Metires_Item h3 {
+  color: #323E48;
+  font-family: nexa;
+  font-weight: 400;
+  width: -webkit-fit-content;
+  width: -moz-fit-content;
+  width: fit-content;
+  font-size: 40px;
+  margin-bottom: 50px;
+  position: relative;
+  cursor: pointer;
+}
+
+.Metires_Section .Metires_Cont .Metires_Item h3::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 10px;
+  left: 0;
+  bottom: 0;
+  background: #6C8A1F;
+}
+
+.Metires_Section span {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 18px;
+  font-family: "Titillium Web", sans-serif;
+  padding: 20px 0;
+}
+
+.Metires_Section.bg_one {
+  background-image: url("../../images/parallax1.jpg");
+}
+
+.Metires_Section.bg_two {
+  background-image: url("../../images/parallax2.jpg");
+}
+
+.Metires_Section.bg_three {
+  background-image: url("../../images/parallax3.jpg");
+}
+
+.Veleur_Section {
+  background-attachment: fixed;
+  background-color: #5E6C7E;
+  color: #ffffff;
+  padding-top: 80px;
+  padding-bottom: 40px;
+}
+
+.Veleur_Section .Veleur_Cont h2 {
+  font-family: nexa;
+  font-weight: 400;
+  font-size: 68px;
+  color: #A8D335;
+}
+
+.Veleur_Section .Veleur_Cont h2 span {
+  font-weight: 700;
+}
+
+.Veleur_Section .Veleur_Cont p {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 25px;
+}
+
+.Veleur_Section .Veleur_Items {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: start;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  margin-top: 80px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  grid-gap: 30px;
+}
+
+.Veleur_Section .Veleur_Items .Veleur_Single {
+  padding: 10px 20px;
+  max-width: 150px;
+}
+
+.Veleur_Section .Veleur_Items .Veleur_Single img {
+  width: 100%;
+  max-width: 120px;
+  -o-object-fit: cover;
+  object-fit: cover;
+}
+
+.Contact_Section {
+  overflow: hidden;
+  background-attachment: fixed;
+}
+
+.Contact_Section .Contact_Left {
+  padding-top: 50px;
+  padding-right: 40px;
+  padding-bottom: 340px;
+  position: relative;
+}
+
+.Contact_Section .Contact_Left h2 {
+  font-size: 44px;
+  font-family: nexa;
+  font-weight: 700;
+  color: #5E6C7E;
+  margin-bottom: 30px;
+}
+
+.Contact_Section .Contact_Left p {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #323E48;
+  margin-bottom: 20px;
+}
+
+.Contact_Section .Contact_Left ol li {
+  font-family: "Titillium Web", sans-serif;
+  margin-bottom: 10px;
+}
+
+.Contact_Section .Contact_Left ol li h3 {
+  font-size: 14px;
+  font-weight: 700;
+  margin-bottom: 0;
+  color: #6C8A1F;
+  display: inline-block;
+}
+
+.Contact_Section .Contact_Left ol li span {
+  display: inline;
+  font-size: 14px;
+  font-weight: 400;
+}
+
+.Contact_Section .Contact_Left h4 {
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #6C8A1F;
+  font-style: italic;
+}
+
+.Contact_Section .Contact_Left .Conatct_Map {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+}
+
+.Contact_Section .Contact_Left .Conatct_Map img {
+  max-width: 100%;
+  width: 380px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Contact_Section .Contact_Right {
+  padding: 50px 40px;
+  background: #f0f0f0;
+  height: 100%;
+  position: relative;
+}
+
+.Contact_Section .Contact_Right::after {
+  position: absolute;
+  content: "";
+  left: 10px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  transform: translateY(-50%);
+  width: 40px;
+  height: 85%;
+  -webkit-box-shadow: 0 0 30px 17px #9b9b9b;
+  box-shadow: 0 0 40px 30px #9b9b9b;
+  border-radius: 50%;
+  z-index: -1;
+  overflow: hidden;
+}
+
+.Contact_Section .Contact_Right .Contact_Heading img {
+  max-width: 140px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.Contact_Section .Contact_Right .Contact_Heading p {
+  font-family: "Titillium Web", sans-serif;
+  font-size: 18px;
+  font-weight: 400;
+  padding: 0 20px;
+}
+
+.Contact_Section .Contact_Right .Contact_Heading p span {
+  font-weight: 600;
+  color: #6C8A1F;
+}
+
+.Contact_Section .Contact_Right .Conatact_Info {
+  margin-top: 60px;
+  font-family: nexa;
+  text-transform: uppercase;
+}
+
+.Contact_Section .Contact_Right .Conatact_Info h2 {
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.Contact_Section .Contact_Right .Conatact_Info h2 p {
+  font-weight: 700;
+  color: #6C8A1F;
+  display: inline;
+}
+
+.Contact_Section .Contact_Right .Conatact_Info h3 {
+  font-size: 22px;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+
+.Contact_Section .Contact_Right .Conatact_Info h3 span {
+  font-weight: 700;
+  color: #6C8A1F;
+  display: inline;
+}
+
+.Tv_Section {
+  padding: 70px 0;
+  background: #313E48;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.Tv_Section .Tv_Content {
+  text-align: center;
+}
+
+.Tv_Section .Tv_Content h2 {
+  font-size: 44px;
+  font-weight: 700;
+  font-family: nexa;
+  color: #6C8A1F;
+}
+
+.Tv_Section .Tv_Content h2 span {
+  color: #84AD41;
+  margin-left: 10px;
+}
+
+.Tv_Section .Tv_Content .Tv_Frame {
+  margin-top: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+}
+
+.Tv_Section .Tv_Content .Tv_Frame iframe {
+  width: 860px;
+  max-width: 100%;
+  min-height: 480px;
+}
+
+.Footer_Section {
+  padding: 60px 0;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.Footer_Section .Footer_Left .Footer_Info h2 {
+  font-size: 18px;
+  font-family: nexa;
+  font-weight: 700;
+  color: #84AD41;
+  margin-bottom: 0;
+}
+
+.Footer_Section .Footer_Left .Footer_Info .Footer_Menu ul li a {
+  font-size: 16px;
+  padding: 5px 0;
+}
+
+.Footer_Section .Footer_Left .Footer_Info .Footer_Menu ul li a:hover {
+  color: #6C8A1F;
+}
+
+.Footer_Section .Footer_Left .Footer_Info .Footer_Menu .Foort_drop {
+  margin-left: 20px;
+  padding-bottom: 10px;
+}
+
+.Footer_Section .Footer_Left .Footer_Info .Footer_Menu .Foort_drop ul li a {
+  font-size: 16px;
+}
+
+.Footer_Section .Footer_Left .Footer_Info .Footer_Menu .Foort_drop ul li a:hover {
+  color: #6C8A1F;
+}
+
+.Footer_Section .Footer_Right {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  height: 100%;
+}
+
+.Footer_Section .Footer_Right .Footer_Service h2,
+.Footer_Section .Footer_Right .Footer_Contact h2 {
+  font-size: 18px;
+  font-family: nexa;
+  font-weight: 700;
+  color: #84AD41;
+  margin-bottom: 0;
+}
+
+.Footer_Section .Footer_Right .Footer_Service ul li a,
+.Footer_Section .Footer_Right .Footer_Contact ul li a {
+  font-size: 16px;
+  padding: 5px 0;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+.Footer_Section .Footer_Right .Footer_Service ul li a:hover,
+.Footer_Section .Footer_Right .Footer_Contact ul li a:hover {
+  color: #6C8A1F;
+}
+
+.Footer_Section .Footer_Right .Footer_Social h2 {
+  font-size: 18px;
+  font-family: nexa;
+  font-weight: 700;
+  color: #84AD41;
+}
+
+.Footer_Section .Footer_Right .Footer_Social ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  grid-gap: 10px;
+}
+
+.Footer_Section .Footer_Right .Footer_Social ul li a {
+  width: 30px;
+  height: 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border-radius: 5px;
+  background: #6C8A1F;
+}
+
+.Footer_Section .Footer_Right .Footer_Social ul li a i {
+  font-size: 20px;
+  color: #ffffff;
+}
+
+.Footer_Section .Footer_Right .Footer_license {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  grid-gap: 20px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+}
+
+.Footer_Section .Footer_Right .Footer_license img {
+  width: 200px;
+  max-width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+  padding: 10px;
+}
+
+.Copyright_Section {
+  background: #5E6C7E;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -ms-flex-item-align: center;
+      align-self: center;
+  position: relative;
+}
+
+.Copyright_Section::after {
+  position: absolute;
+  content: "";
+  width: 500px;
+  height: 40px;
+  top: 0;
+  right: 10%;
+  -webkit-box-shadow: 0 0 30px 17px #9b9b9b;
+  box-shadow: 0 0 15px 30px #9b9b9b;
+  border-radius: 50%;
+  z-index: -1;
+}
+
+.Copyright_Section .Copyright_Pages {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -ms-flex-item-align: center;
+      align-self: center;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  grid-gap: 20px;
+  padding: 20px 0;
+}
+
+.Copyright_Section .Copyright_Pages li a {
+  font-size: 18px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+}
+
+.Copyright_Section .Copyright_Pages li a:hover {
+  color: #313E48;
+}
+
+.Copyright_Section .Copyright p {
+  font-size: 16px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 700;
+  padding: 20px 0;
+}
+
+/* ***********************
+    Hero Section => End
+************************ */
+/* ***********************
+    Organigramme Page => Start
+************************ */
+.Main_Menu_section .Decor_Wrapper .Decor_Two .Decor_Big_Icon, .Main_Menu_section .Decor_Wrapper .Decor_Three .Decor_Three_Icons, .Main_Menu_section .Decor_Wrapper .Decor_Four .Decor_Big_Icon {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  height: 100%;
+}
+
+.organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_two, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_three, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_two, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_three, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_two, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_three, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_two, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_three {
+  background: #84AD41;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_two h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_three h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_two h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_three h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_two h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_three h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_two h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_three h3 {
+  font-size: 16px;
+}
+
+.organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_two h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_three h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_two h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_three h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_two h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_three h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_two h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_three h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.organigramme_section .organigramme_brance .primary_brance .primary_item {
+  background: #6C8A1F;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.organigramme_section .organigramme_brance .primary_brance .primary_item h3 {
+  font-size: 16px;
+}
+
+.organigramme_section .organigramme_brance .primary_brance .primary_item h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance .secondary_left .secondary_item_1, .organigramme_section .organigramme_brance .secondary_brance .secondary_left .secondary_item_3, .organigramme_section .organigramme_brance .secondary_brance .secondary_right .right_item_1, .organigramme_section .organigramme_brance .secondary_brance .secondary_right .right_item_3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_one, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_one, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_one, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_one {
+  background: #313E48;
+  color: #fff;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance .secondary_left .secondary_item_1 h3, .organigramme_section .organigramme_brance .secondary_brance .secondary_left .secondary_item_3 h3, .organigramme_section .organigramme_brance .secondary_brance .secondary_right .right_item_1 h3, .organigramme_section .organigramme_brance .secondary_brance .secondary_right .right_item_3 h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_one h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_one h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_one h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_one h3 {
+  font-size: 16px;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance .secondary_left .secondary_item_1 h2, .organigramme_section .organigramme_brance .secondary_brance .secondary_left .secondary_item_3 h2, .organigramme_section .organigramme_brance .secondary_brance .secondary_right .right_item_1 h2, .organigramme_section .organigramme_brance .secondary_brance .secondary_right .right_item_3 h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_one h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_one h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_one h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_one h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.Metires_Section.bg_one, .Metires_Section.bg_two, .Metires_Section.bg_three {
+  background-size: cover;
+  background-position: center;
+  -webkit-transition: all linear .3s;
+  transition: all linear .3s;
+  z-index: 1;
+  cursor: pointer;
+  position: relative;
+}
+
+.Metires_Section.bg_one::before, .Metires_Section.bg_two::before, .Metires_Section.bg_three::before {
+  position: absolute;
+  content: '';
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(212, 212, 212, 0.624);
+  z-index: -1;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance .secondary_left .secondary_item_2, .organigramme_section .organigramme_brance .secondary_brance .secondary_right .right_item_2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_four, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_four, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_four, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_four {
+  color: #fff;
+  background: #afaeae;
+  padding: 15px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance .secondary_left .secondary_item_2 h3, .organigramme_section .organigramme_brance .secondary_brance .secondary_right .right_item_2 h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_four h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_four h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_four h3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_four h3 {
+  font-size: 16px;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance .secondary_left .secondary_item_2 h2, .organigramme_section .organigramme_brance .secondary_brance .secondary_right .right_item_2 h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_four h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_four h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_four h2, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_four h2 {
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four {
+  width: 18rem;
+}
+
+.organigramme_section .organigramme_brance .primary_brance .primary_item, .organigramme_section .organigramme_brance .secondary_brance .secondary_left, .organigramme_section .organigramme_brance .secondary_brance .secondary_right .right_item_1, .organigramme_section .organigramme_brance .secondary_brance .secondary_right .right_item_3 {
+  border-radius: 0 0 20px 0;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance .secondary_left .secondary_item_1, .organigramme_section .organigramme_brance .secondary_brance .secondary_left .secondary_item_3, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_one, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_one, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_one, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_one {
+  border-radius: 0 0 0 20px;
+}
+
+.organigramme_section .organigramme_brance .primary_brance, .organigramme_section .organigramme_brance .secondary_brance .secondary_left, .organigramme_section .organigramme_brance .secondary_brance .secondary_right, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_one, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_one, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_one, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_one {
+  position: relative;
+}
+
+.organigramme_section .organigramme_brance .primary_brance:after, .organigramme_section .organigramme_brance .secondary_brance .secondary_left:after, .organigramme_section .organigramme_brance .secondary_brance .secondary_right:after, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_one .tertiary_item_one:after, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_two .tertiary_item_one:after, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_one:after, .organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_four .tertiary_item_one:after {
+  position: absolute;
+  content: '';
+  width: 2px;
+  height: 24rem;
+  left: 50;
+  top: -2rem;
+  background: #c9c9c9;
+  -webkit-transform: translate(50, 50);
+          transform: translate(50, 50);
+  z-index: -1;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance, .organigramme_section .organigramme_brance .tertiary_brance {
+  position: relative;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance:after, .organigramme_section .organigramme_brance .tertiary_brance:after {
+  position: absolute;
+  content: '';
+  height: 2px;
+  left: 50;
+  top: -2rem;
+  background: #c9c9c9;
+  -webkit-transform: translate(50, 50);
+          transform: translate(50, 50);
+  z-index: -1;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance {
+  position: relative;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance::before {
+  position: absolute;
+  content: '';
+  height: 2px;
+  left: 50;
+  top: -2rem;
+  background: #c9c9c9;
+  -webkit-transform: translate(50, 50);
+          transform: translate(50, 50);
+  z-index: -1;
+}
+
+.pages_top_section {
+  padding: 20px 0;
+}
+
+.pages_top_section .page_top_brand {
+  width: 100px;
+  max-width: 100%;
+  background: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 0px 12px 3px #b3b3b3ab;
+          box-shadow: 0px 0px 12px 3px #b3b3b3ab;
+}
+
+.heading_section {
+  padding: 25px 0;
+  background-image: url("../../images/heading-shape.png");
+  background-size: cover;
+  background-position: center;
+  text-align: center;
+  font-family: nexa;
+}
+
+.heading_section .page_heading h2 {
+  color: #6C8A1F;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.dark_footer {
+  background: #f1f1f1;
+}
+
+.certification_section {
+  margin: 40px 0;
+}
+
+.certification_section .certification_icon {
+  padding: 15px;
+  border: 3px dotted #313E48;
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.certification_section .certification_icon img {
+  width: 50px;
+  min-width: 100%;
+}
+
+.certification_section .certification_info {
+  padding: 10px;
+}
+
+.certification_section .certification_info .single_para {
+  font-family: "Titillium Web", sans-serif;
+  word-spacing: 2px;
+  margin: 10px 0;
+}
+
+.certification_section .certification_info .single_para h3 {
+  font-weight: 600;
+  font-size: 22px;
+  color: #6C8A1F;
+  display: inline;
+}
+
+.certification_section .certification_info .single_para p {
+  display: inline;
+  color: #313E48;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1;
+}
+
+.gouvernance_section {
+  margin: 40px 0;
+}
+
+.gouvernance_section .gouvernance_para {
+  font-family: "Titillium Web", sans-serif;
+}
+
+.gouvernance_section .gouvernance_para h2 {
+  font-size: 20px;
+  font-weight: 600;
+  margin: 20px 0;
+}
+
+.gouvernance_section .gouvernance_para .one_section {
+  margin: 20px 0;
+}
+
+.gouvernance_section .gouvernance_para .heading_green {
+  color: #6C8A1F;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+.gouvernance_section .gouvernance_para p {
+  margin: 10px 0;
+  font-size: "Titillium Web", sans-serif;
+}
+
+.gouvernance_section .gouvernance_para ul {
+  margin-left: 50px;
+}
+
+.gouvernance_section .gouvernance_para ul li {
+  list-style: square;
+  margin: 10px 0;
+}
+
+.gouvernance_section .gouvernance_para .gouvernance_per {
+  margin: 15px 0;
+}
+
+.gouvernance_section .gouvernance_para .gouvernance_per span {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 0;
+}
+
+.gouvernance_section .gouvernance_para .gouvernance_per p {
+  margin-top: 0;
+  margin-bottom: 10px;
+  font-family: "Titillium Web", sans-serif;
+  font-weight: 400;
+}
+
+.gouvernance_section .gouvernance_para span.small {
+  margin-bottom: 20px;
+  display: inline-block;
+}
+
+.organigramme_section {
+  margin: 40px 0;
+}
+
+.organigramme_section .organigramme_brance .primary_brance {
+  max-width: 25rem;
+  margin: 0 auto;
+}
+
+.organigramme_section .organigramme_brance .primary_brance::after {
+  height: 41rem !important;
+  left: 50%;
+  top: 0;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  margin: 5rem 0;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance::before {
+  top: 3rem;
+  width: 33rem;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance::after {
+  width: 33rem;
+  top: 16rem;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance .secondary_left {
+  width: 25rem;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance .secondary_left::after {
+  height: 8rem !important;
+  left: 50%;
+  top: 0;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance .secondary_right {
+  width: 25rem;
+}
+
+.organigramme_section .organigramme_brance .secondary_brance .secondary_right::after {
+  height: 8rem !important;
+  left: 50%;
+  top: 0;
+}
+
+.organigramme_section .organigramme_brance .tertiary_brance {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  grid-gap: 10px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.organigramme_section .organigramme_brance .tertiary_brance::after {
+  left: 50%;
+  width: 63rem;
+  -webkit-transform: translate(-50%);
+          transform: translate(-50%);
+}
+
+.organigramme_section .organigramme_brance .tertiary_brance .tertiary_of_three .tertiary_item_one::after {
+  height: 12rem;
+}
+
+.actualites_section {
+  margin: 40px 0;
+}
+
+.actualites_section .actualites_cont .actualites_heading h1 {
+  font-size: 24px;
+  font-family: nexa;
+  margin-bottom: 0;
+  position: relative;
+}
+
+.actualites_section .actualites_cont .actualites_heading h1::after {
+  position: absolute;
+  content: '';
+  width: 80%;
+  height: 3px;
+  right: 0;
+  background: #000;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.actualites_section .actualites_cont .actualites_box {
+  background: #f7f7f7;
+  margin: 10px 0;
+  padding: 10px;
+  text-align: center;
+  font-family: "Titillium Web", sans-serif;
+}
+
+.actualites_section .actualites_cont .actualites_box h2 {
+  color: #84AD41;
+  font-weight: 600;
+  padding-top: 10px !important;
+  font-size: 18px;
+}
+
+.actualites_section .actualites_cont .actualites_box p {
+  font-size: 16px;
+}
+
+.actualites_section .actualites_cont .actualites_box a {
+  color: #84AD41;
+  font-size: 14px;
+}
+
+.actualites_section .actualites_cont .more_actualites .more-btn {
+  margin-top: 10px;
+  background: #84AD41;
+  padding: 15px;
+  text-align: center;
+}
+
+.actualites_section .actualites_cont .more_actualites .more-btn button {
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffffff;
+}
+
+.actualites_section .actualites_sidebar .web_tv {
+  padding: 10px;
+  background: #84AD41;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.actualites_section .actualites_sidebar .web_tv h2 {
+  color: #ffffff;
+  margin-bottom: 0;
+  font-family: nexa;
+  font-weight: 700;
+}
+
+.actualites_section .actualites_sidebar .web_tv i {
+  color: #ffffff;
+  font-size: 20px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+
+.actualites_section .actualites_sidebar .actualites_contact {
+  background: #f7f7f7;
+  margin: 10px 0;
+  padding: 20px 20px;
+  z-index: 1;
+  position: relative;
+}
+
+.actualites_section .actualites_sidebar .actualites_contact .contact_item {
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.actualites_section .actualites_sidebar .actualites_contact .contact_item h3 {
+  font-size: 20px;
+  font-weight: 700;
+  font-family: nexa;
+  color: white;
+}
+
+.actualites_section .actualites_sidebar .actualites_contact .contact_item img {
+  max-width: 55px;
+  width: 100%;
+}
+
+.actualites_section .actualites_sidebar .actualites_contact p {
+  font-family: "Titillium Web", sans-serif;
+  color: #313E48;
+  font-size: 20px;
+}
+
+.actualites_section .actualites_sidebar .actualites_contact h2 {
+  font-size: 24px;
+  font-weight: 700;
+  font-family: "Titillium Web", sans-serif;
+  color: #6C8A1F;
+  margin-bottom: 0;
+}
+
+.actualites_section .actualites_sidebar .actualites_contact::after {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 5px;
+  left: 0;
+  bottom: 0;
+  background: #6C8A1F;
+}
+
+.actualites_section .actualites_sidebar .actualites_contact::before {
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 60px;
+  left: 0;
+  top: 0;
+  background: #313E48;
+  z-index: -1;
+}
+
+.actualites_section .actualites_sidebar .actualites_more .more_item {
+  text-align: center;
+  font-family: nexa;
+  background: #313E48;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  padding-left: 2rem;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 5px 0;
+}
+
+.actualites_section .actualites_sidebar .actualites_more .more_item h2 {
+  padding: 15px 10px;
+  font-size: 14px;
+  color: #ffffff;
+  margin-bottom: 0;
+}
+
+.actualites_section .actualites_sidebar .actualites_more .more_item h2 span {
+  color: #ffffff;
+  display: block;
+}
+
+.actualites_section .actualites_sidebar .actualites_more .more_item i {
+  color: #ffffff;
+  font-size: 22px;
+  vertical-align: middle;
+}
+.nous_section .nous_content{
+  padding: 20px;
+}
+.nous_content h1{
+  font-size: 28px;
+  font-weight: 700;
+  font-family: font-n;
+}
+.nous_content p{
+  font-family: font-t;
+  font-size: 16px;
+  padding: 10px 0;
+}
+.nous_content h3{
+  font-size: 20px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+.nous_content span{
+  font-size: 18px;
+}
+.nos_bg_img {
+  background-position: center;
+  background-size: cover;
+  height: 12rem;
+  position: relative;
+  z-index: 1;
+}
+.nos_bg_img::after{
+  position: absolute;
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.466);
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+/* ***********************
+    Organigramme Page => End
+************************ */
+/* ***********************
+    Hero Section => Start
+************************ */
+@media (max-width: 1202px) {
+  .Main_Menu_section .Decor_Wrapper .Decor_One,
+  .Main_Menu_section .Decor_Wrapper .Decor_Two,
+  .Main_Menu_section .Decor_Wrapper .Decor_Three,
+  .Main_Menu_section .Decor_Wrapper .Decor_Four,
+  .Main_Menu_section .Decor_Wrapper .Decor_Five {
+    position: absolute;
+    content: '';
+    width: 562px;
+    height: 960px;
+    opacity: .12;
+  }
+  .actualites_section .actualites_cont .actualites_heading h1::after {
+    width: 70% !important;
+  }
+}
+
+@media (min-width: 1200px) {
+  .Main_Menu_section .Decor_Wrapper .Decor_One,
+  .Main_Menu_section .Decor_Wrapper .Decor_Two,
+  .Main_Menu_section .Decor_Wrapper .Decor_Three,
+  .Main_Menu_section .Decor_Wrapper .Decor_Four,
+  .Main_Menu_section .Decor_Wrapper .Decor_Five {
+    position: absolute;
+    content: '';
+    width: 562px;
+    height: 960px;
+  }
+}
+
+@media (max-width: 1200px) {
+  .Main_Menu_section .Main_Menu {
+    padding: 20px 0;
+  }
+  .Main_Menu_section .Decor_Wrapper .Decor_One,
+  .Main_Menu_section .Decor_Wrapper .Decor_Two,
+  .Main_Menu_section .Decor_Wrapper .Decor_Three,
+  .Main_Menu_section .Decor_Wrapper .Decor_Four,
+  .Main_Menu_section .Decor_Wrapper .Decor_Five {
+    position: absolute;
+    content: '';
+    width: 562px;
+    height: 960px;
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-collapse {
+    -webkit-transition: all 0.3s ease-in-out !important;
+    transition: all 0.3s ease-in-out !important;
+  }
+  .navbar {
+    padding-top: .5rem;
+    padding-bottom: .5rem;
+    background: white;
+    -webkit-transition: all linear 2s;
+    transition: all linear 2s;
+  }
+  .navbar .navbar-nav {
+    padding: 20px;
+  }
+  .Veleur_Section .Veleur_Items {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    margin-top: 80px;
+    grid-gap: 30px;
+  }
+  .Footer_Section .Footer_Right .Footer_license {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    grid-gap: 20px;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .organigramme_section .organigramme_brance .tertiary_brance {
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+  }
+  .organigramme_section .organigramme_brance .tertiary_brance::after {
+    display: none !important;
+  }
+  .organigramme_section .organigramme_brance .secondary_brance::before {
+    display: none !important;
+  }
+  .organigramme_section .organigramme_brance .secondary_brance::after {
+    display: none !important;
+  }
+}
+
+@media (max-width: 768px) {
+  .organigramme_section .organigramme_brance .tertiary_brance {
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important;
+  }
+  .actualites_section .actualites_cont .actualites_heading h1::after {
+    width: 65% !important;
+  }
+}
+
+@media (max-width: 498px) {
+  .Main_Menu_section .Hero_Text h1 {
+    font-size: 48px;
+    padding: 10px 0;
+  }
+  .Main_Menu_section .Hero_Text p {
+    font-size: 52px;
+    font-family: nexa;
+    color: #84AD41;
+  }
+  .Metires_Section .Metires_Cont p,
+  .Metires_Section .Metires_Cont p span {
+    font-size: 48px;
+  }
+  .Metires_Section .Metires_Cont p .Metires_Bold {
+    font-size: 48px;
+  }
+  .Metires_Section .Metires_Cont .Metires_Item h3 {
+    font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 26px;
+  }
+  .Veleur_Section .Veleur_Cont h2 {
+    font-family: nexa;
+    font-weight: 400;
+    font-size: 48px;
+    color: #A8D335;
+  }
+  .Tv_Section .Tv_Content h2 {
+    font-size: 32px;
+    font-weight: 700;
+    font-family: nexa;
+    color: #6C8A1F;
+  }
+  .Footer_Section {
+    padding: 40px 20px;
+  }
+  .actualites_section .actualites_cont .actualites_heading h1::after {
+    width: 60% !important;
+  }
+}
+
+@media (max-width: 420px) {
+  .Header_Top_Section .Header_Top ul li a {
+    margin-left: 0;
+    margin: 0 10px;
+  }
+  .Main_Menu_section .Hero_Text h1 {
+    font-size: 32px !important;
+    padding: 20px 0;
+  }
+  .actualites_section .actualites_cont .actualites_heading h1::after {
+    width: 40% !important;
+  }
+}
+
+/* ***********************
+    Hero Section => End
+************************ */
+/*# sourceMappingURL=style.css.map */

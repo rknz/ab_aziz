@@ -1,0 +1,168 @@
+// Large devices (desktops, 992px and up)
+@media (max-width: 1202px) { 
+    .Main_Menu_section .Decor_Wrapper .Decor_One, .Main_Menu_section .Decor_Wrapper .Decor_Two, .Main_Menu_section .Decor_Wrapper .Decor_Three, .Main_Menu_section .Decor_Wrapper .Decor_Four, .Main_Menu_section .Decor_Wrapper .Decor_Five {
+    position: absolute;
+    content: '';
+    width: 562px;
+    height: 960px;
+    opacity: .12;
+    }
+    .actualites_section .actualites_cont .actualites_heading h1::after {
+        width: 70% !important;
+    }
+
+}
+
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { 
+    .Main_Menu_section .Decor_Wrapper .Decor_One, .Main_Menu_section .Decor_Wrapper .Decor_Two, .Main_Menu_section .Decor_Wrapper .Decor_Three, .Main_Menu_section .Decor_Wrapper .Decor_Four, .Main_Menu_section .Decor_Wrapper .Decor_Five {
+    position: absolute;
+    content: '';
+    width: 562px;
+    height: 960px;
+    }
+
+ }
+// Extra large devices (large desktops, 1200px and up)
+@media (max-width: 1200px) { 
+    .Main_Menu_section .Main_Menu {
+        padding: 20px 0;
+    }
+
+    .Main_Menu_section .Decor_Wrapper .Decor_One, .Main_Menu_section .Decor_Wrapper .Decor_Two, .Main_Menu_section .Decor_Wrapper .Decor_Three, .Main_Menu_section .Decor_Wrapper .Decor_Four, .Main_Menu_section .Decor_Wrapper .Decor_Five {
+    position: absolute;
+    content: '';
+    width: 562px;
+    height: 960px;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (max-width: 992px) {
+    // MAin Menu
+    .navbar-collapse {
+        transition: all.3s ease-in-out !important;
+    }
+    .navbar {
+        padding-top: .5rem;
+        padding-bottom: .5rem;
+        background: white;
+        transition: all linear 2s;
+        .navbar-nav{
+            padding: 20px;
+        }
+    }
+    // Veleur Section
+    .Veleur_Section .Veleur_Items {
+        justify-content: center;
+        margin-top: 80px;
+        grid-gap: 30px;
+    }
+    // Footer Section
+    .Footer_Section .Footer_Right .Footer_license {
+        justify-content: center;
+        grid-gap: 20px;
+        flex-wrap: wrap;
+    }
+    // Others page
+    .organigramme_section .organigramme_brance .tertiary_brance {
+        justify-content: center;
+    }
+    .organigramme_section .organigramme_brance .tertiary_brance::after {
+        display: none !important;
+    }
+    .organigramme_section .organigramme_brance .secondary_brance::before {
+        display: none !important;
+    }
+    .organigramme_section .organigramme_brance .secondary_brance::after {
+        display: none !important;
+    }
+}
+
+
+
+// Medium devices (tablets, 768px and up)
+@media (max-width: 768px) { 
+    .organigramme_section .organigramme_brance .tertiary_brance {
+    justify-content: center !important;
+    }
+
+    // Others page
+    .actualites_section .actualites_cont .actualites_heading h1::after {
+        width: 65% !important;
+    }
+    
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 498px) { 
+    .Main_Menu_section .Hero_Text{
+        h1 {
+            font-size: 48px;
+            padding: 10px 0;
+        }
+        p {
+            font-size: 52px;
+            font-family: nexa;
+            color: #84AD41;
+        }
+    }
+    // Metrires
+    .Metires_Section .Metires_Cont p,
+    .Metires_Section .Metires_Cont p span {
+        font-size: 48px;
+    }
+    .Metires_Section .Metires_Cont p .Metires_Bold {
+        font-size: 48px;
+    }
+    .Metires_Section .Metires_Cont .Metires_Item h3 {
+        font-weight: 400;
+    font-size: 24px;
+    margin-bottom: 26px;
+    }
+    // Veleur Section
+    .Veleur_Section .Veleur_Cont h2 {
+        font-family: nexa;
+        font-weight: 400;
+        font-size: 48px;
+        color: #A8D335;
+    }
+    // Tv Section
+    .Tv_Section .Tv_Content h2 {
+        font-size: 32px;
+        font-weight: 700;
+        font-family: nexa;
+        color: #6C8A1F;
+    }
+    // Footer Section
+    .Footer_Section {
+        padding: 40px 20px;
+    }
+    // Others page
+    .actualites_section .actualites_cont .actualites_heading h1::after {
+        width: 60% !important;
+    }
+    
+}
+
+// Extra small devices (portrait phones, less than 576px)
+// No media query for `xs` since this is the default in Bootstrap
+
+@media (max-width:420px) {
+    .Header_Top_Section .Header_Top ul li a {
+        margin-left: 0;
+        margin: 0 10px;
+    }
+    .Main_Menu_section .Hero_Text h1 {
+        font-size: 32px !important;
+        padding: 20px 0;
+    }
+    .actualites_section .actualites_cont .actualites_heading h1::after {
+        width: 40% !important;
+    }
+
+}
+
+
+

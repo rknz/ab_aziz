@@ -1,0 +1,135 @@
+%Decor{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100%;
+}
+
+%LGreen{
+    background: $lgreen;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    h3{
+        font-size: 16px;
+    }
+    h2{
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+%Green{
+    background: $green;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    h3{
+        font-size: 16px;
+    }
+    h2{
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+
+%Black{
+    background: $black;
+    color: #fff;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    h3{
+        font-size: 16px;
+    }
+    h2{
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+
+%MBG{
+    background-size: cover;
+    background-position: center;
+    transition: all linear .3s;
+    z-index: 1;
+    cursor: pointer;
+    position: relative;
+    &::before{
+        position: absolute;
+        content: '';
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(212, 212, 212, 0.624);
+        z-index: -1;
+    }
+}
+
+
+%Gray{
+    color: #fff;
+    background: rgb(175, 174, 174);
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+    h3{
+        font-size: 16px;
+    }
+    h2{
+        font-size: 18px;
+        font-weight: 600;
+    }
+}
+%width{
+    width: 18rem;
+}
+%Leftr{
+    border-radius: 0 0 20px 0;
+}
+%Leftl{
+    border-radius: 0 0 0 20px;
+}
+%cline{
+    position: relative;
+    &:after{
+        position: absolute;
+        content: '';
+        width: 2px;
+        height: 24rem;
+        left: 50;
+        top: -2rem;
+        background: #c9c9c9;
+        transform: translate(50, 50);
+        z-index: -1;
+    }
+}
+%rline{
+    position: relative;
+    &:after{
+        position: absolute;
+        content: '';
+        height: 2px;
+        left: 50;
+        top: -2rem;
+        background: #c9c9c9;
+        transform: translate(50, 50);
+        z-index: -1;
+    }
+}
+%rbline{
+    position: relative;
+    &::before{
+        position: absolute;
+        content: '';
+        height: 2px;
+        left: 50;
+        top: -2rem;
+        background: #c9c9c9;
+        transform: translate(50, 50);
+        z-index: -1;
+    }
+}
